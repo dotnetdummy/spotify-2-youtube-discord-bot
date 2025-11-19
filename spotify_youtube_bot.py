@@ -158,12 +158,13 @@ async def convert_slash(interaction: discord.Interaction):
 
 
 @bot.event
-def on_ready():
+async def on_ready():
     print(f"Logged in as {bot.user}")
     try:
-        bot.tree.sync()
-    except:
-        pass
+        await bot.tree.sync()
+        print("Slash commands synced.")
+    except Exception as e:
+        print(f"Failed to sync commands: {e}")
 
 
 if TOKEN:
