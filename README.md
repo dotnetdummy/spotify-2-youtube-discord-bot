@@ -87,7 +87,7 @@ A ready‑to‑run Docker image is available on Docker Hub:
 
 **Image:** `dotnetdummy/spotify-2-youtube-discord-bot`
 
-**Link:** [https://hub.docker.com/repository/docker/dotnetdummy/spotify-2-youtube-discord-bot/general](https://hub.docker.com/repository/docker/dotnetdummy/spotify-2-youtube-discord-bot/general)
+**Link:** [Docker Hub](https://hub.docker.com/r/dotnetdummy/spotify-2-youtube-discord-bot)
 
 ### 📝 Description
 
